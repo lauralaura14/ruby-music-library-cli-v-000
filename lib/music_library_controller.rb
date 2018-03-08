@@ -38,7 +38,7 @@ class MusicLibraryController
         self.play_song
     end
   end
-  end
+end
 
   def list_songs
     songs = Song.all.sort { |a, b| a.name <=> b.name }
