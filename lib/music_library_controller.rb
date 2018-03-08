@@ -30,7 +30,7 @@ class MusicLibraryController
     elsif input = "list genre"
       self.list_songs_by_genre
     elsif input == "exit"
-      next
+      break
     end
   end
 
