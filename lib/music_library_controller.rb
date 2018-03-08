@@ -32,7 +32,7 @@ class MusicLibraryController
     elsif input == "play song"
       self.play_song
     elsif input == "exit"
-      nil
+      break
     end
   end
 
