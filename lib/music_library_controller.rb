@@ -21,6 +21,7 @@ class MusicLibraryController
 
     if input != "exit"
       self.call
+    
     end
   end
 
