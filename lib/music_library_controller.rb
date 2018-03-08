@@ -20,7 +20,7 @@ class MusicLibraryController
     input = gets.strip
 
     if input == exit
-      next
+      break
     elsif input == "list songs"
       self.list_songs
     elsif input == "list artists"
