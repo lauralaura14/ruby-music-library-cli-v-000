@@ -19,9 +19,18 @@ class MusicLibraryController
 
     input = gets.strip
 
-    if input != "exit"
-      self.call
-    
+    if input == "list songs"
+      self.list_songs
+    elsif input == "list artists"
+      self.list_artists
+    elsif input == "list genres"
+      self.list_genres
+    elsif input == "list artist"
+      self.list_songs_by_artist
+    elsif input = "list genre"
+      self.list_songs_by_genre
+    elsif input == "exit"
+      next
     end
   end
 
